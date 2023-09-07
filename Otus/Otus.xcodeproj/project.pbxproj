@@ -11,6 +11,11 @@
 		9490F7BD2AA9B8D100A34B75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9490F7BC2AA9B8D100A34B75 /* ContentView.swift */; };
 		9490F7BF2AA9B8D200A34B75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9490F7BE2AA9B8D200A34B75 /* Assets.xcassets */; };
 		9490F7C22AA9B8D200A34B75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9490F7C12AA9B8D200A34B75 /* Preview Assets.xcassets */; };
+		9490F7C92AA9BA0000A34B75 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9490F7C82AA9BA0000A34B75 /* ListViewModel.swift */; };
+		9490F7CB2AA9CA7F00A34B75 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9490F7CA2AA9CA7F00A34B75 /* SecondScreen.swift */; };
+		9490F7CD2AA9CAC900A34B75 /* ThirdScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9490F7CC2AA9CAC900A34B75 /* ThirdScreen.swift */; };
+		9490F7CF2AA9E7D500A34B75 /* UIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9490F7CE2AA9E7D500A34B75 /* UIWebView.swift */; };
+		9490F7D22AA9EA3200A34B75 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9490F7D12AA9EA3200A34B75 /* FirstScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		9490F7BC2AA9B8D100A34B75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9490F7BE2AA9B8D200A34B75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9490F7C12AA9B8D200A34B75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9490F7C82AA9BA0000A34B75 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		9490F7CA2AA9CA7F00A34B75 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		9490F7CC2AA9CAC900A34B75 /* ThirdScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdScreen.swift; sourceTree = "<group>"; };
+		9490F7CE2AA9E7D500A34B75 /* UIWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWebView.swift; sourceTree = "<group>"; };
+		9490F7D12AA9EA3200A34B75 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,13 @@
 		9490F7B92AA9B8D100A34B75 /* Otus */ = {
 			isa = PBXGroup;
 			children = (
+				9490F7D02AA9E96700A34B75 /* UI */,
 				9490F7BA2AA9B8D100A34B75 /* OtusApp.swift */,
 				9490F7BC2AA9B8D100A34B75 /* ContentView.swift */,
+				9490F7D12AA9EA3200A34B75 /* FirstScreen.swift */,
+				9490F7CA2AA9CA7F00A34B75 /* SecondScreen.swift */,
+				9490F7CC2AA9CAC900A34B75 /* ThirdScreen.swift */,
+				9490F7C82AA9BA0000A34B75 /* ListViewModel.swift */,
 				9490F7BE2AA9B8D200A34B75 /* Assets.xcassets */,
 				9490F7C02AA9B8D200A34B75 /* Preview Content */,
 			);
@@ -65,6 +80,14 @@
 				9490F7C12AA9B8D200A34B75 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9490F7D02AA9E96700A34B75 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9490F7CE2AA9E7D500A34B75 /* UIWebView.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9490F7D22AA9EA3200A34B75 /* FirstScreen.swift in Sources */,
 				9490F7BD2AA9B8D100A34B75 /* ContentView.swift in Sources */,
+				9490F7CF2AA9E7D500A34B75 /* UIWebView.swift in Sources */,
+				9490F7CB2AA9CA7F00A34B75 /* SecondScreen.swift in Sources */,
+				9490F7CD2AA9CAC900A34B75 /* ThirdScreen.swift in Sources */,
+				9490F7C92AA9BA0000A34B75 /* ListViewModel.swift in Sources */,
 				9490F7BB2AA9B8D100A34B75 /* OtusApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
