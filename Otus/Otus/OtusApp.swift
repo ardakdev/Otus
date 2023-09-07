@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct OtusApp: App {
+    @State var viewModel: ListViewModel = .shared
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(viewModel)
         }
     }
 }
